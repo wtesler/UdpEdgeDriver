@@ -1,5 +1,5 @@
 name: 'Govee Lights (Unofficial)'
-packageKey: 'govee_lights_unofficial_v1.05'
+packageKey: 'govee_lights_unofficial_v1.15'
 permissions:
   lan: {}
   discovery: {}

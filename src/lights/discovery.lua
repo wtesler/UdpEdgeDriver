@@ -1,6 +1,6 @@
 local discovery = {}
 
-function discovery.handle_discovery(driver, should_continue)
+function discovery.handle_discovery(driver, _should_continue)
     local metadata = {
         type = "LAN",
         device_network_id = "Govee Lights",
