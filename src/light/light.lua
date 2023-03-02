@@ -1,8 +1,8 @@
 local capabilities = require "st.capabilities"
 local Driver = require "st.driver"
 
-local command = require "command"
-local discovery = require "discovery"
+local command = require "lights.command"
+local discovery = require "lights.discovery"
 local lifecycle = require "lifecycle"
 
 local hello_world_driver = Driver("GoveeLightDriver", {

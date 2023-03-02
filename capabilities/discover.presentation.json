@@ -1,0 +1,31 @@
+{
+  "dashboard": {
+    "actions": [
+      {
+        "displayType": "pushButton",
+        "pushButton": {
+          "command": {
+            "setButton": "setButton",
+            "argumentType": "string"
+          }
+        }
+      }
+    ],
+    "basicPlus": []
+  },
+  "detailView": [
+    {
+      "label": "Discover",
+      "displayType": "pushButton",
+      "pushButton": {
+        "command": {
+          "setButton": "setButton",
+          "argumentType": "string"
+        }
+      },
+      "state": null
+    }
+  ],
+  "id": "peacevalley08112.discover",
+  "version": 1
+}

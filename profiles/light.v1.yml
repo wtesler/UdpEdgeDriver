@@ -1,4 +1,4 @@
-name: profile.v1
+name: light.v1
 components:
   - id: main
     capabilities:
@@ -13,6 +13,5 @@ components:
     categories:
       - name: Light
 metadata:
-  vid: 87fda47e-16c6-25c0-91ab-f81752be6b77
+  vid: d061ac8b-9d7e-4101-a259-cc2fa7f1a60d
   mnmn: SmartThingsCommunity
-preferences:

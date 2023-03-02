@@ -1,11 +1,13 @@
 local capabilities = require "st.capabilities"
 local Driver = require "st.driver"
 
-local command = require "command"
-local discovery = require "discovery"
+local command = require "lights.command"
+local discovery = require "lights.discovery"
 local lifecycle = require "lifecycle"
 
-local hello_world_driver = Driver("GoveeLights", {
+local discover = capabilities["peacevalley08112.discover"]
+
+local driver = Driver("Govee Lights", {
     discovery = discovery.handle_discovery,
 
     lifecycle_handlers = {
@@ -15,11 +17,10 @@ local hello_world_driver = Driver("GoveeLights", {
     },
 
     capability_handlers = {
-        [capabilities.switch.ID] = {
-            [capabilities.switch.commands.on.NAME] = command.switch_on,
-            [capabilities.switch.commands.off.NAME] = command.switch_off,
-        },
+        [discover.ID] = {
+            [discover.commands.discover.NAME] = command.discover,
+        }
     }
 })
 
-hello_world_driver:run()
+driver:run()

@@ -1,0 +1,13 @@
+name: Discover Lights
+attributes:
+  discoverLights:
+    schema:
+      type: object
+      additionalProperties: false
+    enumCommands: []
+commands:
+  discover:
+    name: discover
+    arguments: []
+id: peacevalley08112.discover
+version: 1

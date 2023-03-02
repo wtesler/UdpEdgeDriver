@@ -1,0 +1,11 @@
+name: lights.v1
+components:
+  - id: main
+    capabilities:
+      - id: "peacevalley08112.discover"
+        version: 1
+    categories:
+      - name: Others
+metadata:
+  vid: 16e0dcb0-d5e5-48e1-ab1c-07a3a6d41881
+  mnmn: SmartThingsCommunity

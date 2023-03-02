@@ -1,5 +1,5 @@
-name: 'UDP Broadcaster'
-packageKey: 'udp_broadcaster_v1.2'
+name: 'Govee Lights (Unofficial)'
+packageKey: 'govee_lights_unofficial_v1.05'
 permissions:
   lan: {}
   discovery: {}
