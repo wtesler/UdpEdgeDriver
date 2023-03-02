@@ -1,0 +1,5 @@
+name: 'UDP Broadcaster'
+packageKey: 'udp_broadcaster_v1.2'
+permissions:
+  lan: {}
+  discovery: {}
