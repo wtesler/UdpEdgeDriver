@@ -5,7 +5,7 @@ local command = require "command"
 local discovery = require "discovery"
 local lifecycle = require "lifecycle"
 
-local hello_world_driver = Driver("GoveeLights", {
+local hello_world_driver = Driver("GoveeLightDriver", {
     discovery = discovery.handle_discovery,
 
     lifecycle_handlers = {

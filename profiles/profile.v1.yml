@@ -4,18 +4,15 @@ components:
     capabilities:
       - id: switch
         version: 1
+      - id: switchLevel
+        version: 1
+      - id: colorControl
+        version: 1
+      - id: colorTemperature
+        version: 1
     categories:
-      - name: Others
+      - name: Light
 metadata:
   vid: 87fda47e-16c6-25c0-91ab-f81752be6b77
   mnmn: SmartThingsCommunity
 preferences:
-  - title: "On/Off"
-    name: request1
-    description: "0 is off, 1 is on."
-    required: true
-    preferenceType: number
-    definition:
-      minimum: 0
-      maximum: 1
-      default: 1
